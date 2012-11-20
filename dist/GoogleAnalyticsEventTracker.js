@@ -1,3 +1,7 @@
+/*! Google Analytics Event Tracker jQuery Plugin - v0.1.0 - 2012-11-20
+* https://github.com/esteinborn/Google-Analytics-Event-Tracker
+* Copyright (c) 2012 Eric Steinborn; Licensed MIT */
+
 // the semi-colon before the function invocation is a safety 
 // net against concatenated scripts and/or other plugins 
 // that are not closed properly.
@@ -188,3 +192,24 @@ function gaDocumentTrack() {
 }
 })( jQuery, window, document );
 
+
+(function($) {
+
+  // Collection method. is new
+  $.fn.awesome = function() {
+    return this.each(function() {
+      $(this).html('awesome');
+    });
+  };
+
+  // Static method.
+  $.awesome = function() {
+    return 'awesome';
+  };
+
+  // Custom selector.
+  $.expr[':'].awesome = function(elem) {
+    return elem.textContent.indexOf('awesome') >= 0;
+  };
+
+}(jQuery));

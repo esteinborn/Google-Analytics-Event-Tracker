@@ -8,7 +8,7 @@
 
 (function($) {
 
-  // Collection method.
+  // Collection method. is new
   $.fn.awesome = function() {
     return this.each(function() {
       $(this).html('awesome');
