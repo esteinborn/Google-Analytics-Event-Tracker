@@ -1,0 +1,29 @@
+{
+  "name": "GoogleAnalyticsEventTracker",
+  "title": "Google Analytics Event Tracker jQuery Plugin",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/esteinborn/Google-Analytics-Event-Tracker",
+  "author": {
+    "name": "Eric Steinborn",
+    "email": "esteinborn@gmail.com",
+    "url": "http://ericsteinborn.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esteinborn/Google-Analytics-Event-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esteinborn/Google-Analytics-Event-Tracker/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/esteinborn/Google-Analytics-Event-Tracker/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
